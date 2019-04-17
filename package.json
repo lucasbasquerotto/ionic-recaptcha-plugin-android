@@ -2,7 +2,7 @@
   "name": "cordova-plugin-recaptcha-android",
   "version": "1.0.1",
   "cordova": {
-    "id": "com.keff.IonicRecaptcha",
+    "id": "cordova-plugin-recaptcha-android",
     "platforms": [
       "android"
     ]
