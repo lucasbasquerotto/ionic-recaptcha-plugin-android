@@ -56,8 +56,8 @@ public class IonicRecaptcha extends CordovaPlugin {
                                 Log.e(TAG, "Response: " + userResponseToken);
                                 callbackContext.success(userResponseToken);
                             } else {
-                                Log.e(TAG, "Repsonse token was empty.");
-                                callbackContext.error("Repsonse token was empty.");
+                                Log.e(TAG, "Response token was empty.");
+                                callbackContext.error("Response token was empty.");
                             }
                         }
                     })
