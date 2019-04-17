@@ -13,7 +13,7 @@ And didn't find any plugin for Angular2+ so this comes to fill that hole.
 
 ## Installation
 ```
-cordova plugin add https://github.com/lucasbasquerotto/ionic-recaptcha-plugin-android
+cordova plugin add https://github.com/lucasbasquerotto/cordova-plugin-recaptcha-android
 ```
 
 <!-- __note:__ The plan is to publish this to the @packt npm org, however cordova-cli doesn't currently 
