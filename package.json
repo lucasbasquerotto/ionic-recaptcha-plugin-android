@@ -1,5 +1,5 @@
 {
-  "name": "ionic-recaptcha-android",
+  "name": "cordova-plugin-recaptcha-android",
   "version": "1.0.1",
   "cordova": {
     "id": "com.keff.IonicRecaptcha",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "vcs",
-    "url": "https://github.com/nombrekeff/ionic-recaptcha-plugin-android"
+    "url": "https://github.com/lucasbasquerotto/cordova-plugin-recaptcha-android"
   },
   "description": "This is a cordova plugin to perform Google reCAPTCHA verify on Android using the android SafetyNet package."
 }
