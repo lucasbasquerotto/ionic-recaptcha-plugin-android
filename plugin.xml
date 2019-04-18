@@ -17,6 +17,6 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"/>
         <source-file src="src/android/IonicRecaptcha.java" target-dir="src/com/keff" />
-        <framework src="com.google.android.gms:play-services-safetynet:+" />
+        <framework src="com.google.android.gms:play-services-safetynet:$SAFETYNET_VERSION" />
     </platform>
 </plugin>
