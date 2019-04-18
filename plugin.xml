@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-recaptcha-android" version="1.0.0">
+<plugin id="cordova-plugin-recaptcha-android" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>Cordova Recaptcha Android</name>
 
@@ -8,16 +8,14 @@
         <clobbers target="IonicRecaptcha" />
     </js-module>
 
-    <platform name="android">
-        <framework src="com.google.android.gms:play-services-safetynet:+" />
-
-        <source-file src="src/android/IonicRecaptcha.java" target-dir="src/com/keff" />
-        
-        <config-file target="config.xml" parent="/*">
+    <platform name="android">        
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="IonicRecaptcha">
                 <param name="android-package" value="com.keff.IonicRecaptcha"/>
             </feature>
         </config-file>
-
+        <config-file parent="/*" target="AndroidManifest.xml"/>
+        <source-file src="src/android/IonicRecaptcha.java" target-dir="src/com/keff" />
+        <framework src="com.google.android.gms:play-services-safetynet:+" />
     </platform>
 </plugin>
